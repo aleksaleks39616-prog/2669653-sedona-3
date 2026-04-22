@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #333333;
+}
+  .button-want {
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #ffffff;
+}
+
+  a {
+    color: inherit;
+    text-decoration:none
+  }
+  .hero-page{
+    background-color: #ffffff;
+    color: #333333;
+    background-position: center;
+  }
+ .navigation-list {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+  }
+  .page-welcome {
+    height: 485px;
+    background-image: url("../images/index-background.jpg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00FFFF;
+
+  }
+
+  .advanteges-head {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .advantages-reasons {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .advanteges-item {
+    background-color: #68a2ca4d;
+
+  }
+
+  .advanteges-title {
+    text-transform: uppercase;
+  }
+  .advanteges-item-city {
+    background-color: #82b3d3;
+    color: #ffffff;
+
+  }
+  .advanteges-item-bridge {
+    background-color: #82b3d3;
+    color:#ffffff
+  }
+  .advantages-bridge {
+    text-transform: uppercase;
+  }
+
+
+.services-item-house{
+background-color:#83b3d333;
+}
+.services-item-souvenirs{
+background-color:#83b3d333;
+}
+  .subscribe-to-newsletter {
+    background-image: url("../images/subscribe.jpg");
+    color:#ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.subsccribe-button{
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 232px;
+  height: 52px;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+.header-inner {
+  color: #ffffff;
+  background-color:#615048;
+  background-image: url("../images/inner-catalog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 377px;
+
+}
+.button-brown{
+ font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 140px;
+  height: 36px;
+  text-transform: uppercase;
+  background-color:#756157;
+  color: #ffffff;
+}
+.button-blue{
+font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 140px;
+  height: 36px;
+  text-transform: uppercase;
+  background-color:#82B3D3;
+  color: #ffffff;
+}
+.button-green {
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 140px;
+  height: 36px;
+  text-transform: uppercase;
+  background-color:#7DB54F;
+  color: #ffffff;
+}
