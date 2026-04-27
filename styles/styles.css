@@ -5,6 +5,7 @@
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
+
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -12,6 +13,7 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -19,7 +21,8 @@ body {
   background-color: #ffffff;
   color: #333333;
 }
-  .button-want {
+
+.button-want {
   font-family: "PT Sans";
   text-align: center;
   font-weight: 700;
@@ -30,180 +33,202 @@ body {
   color: #ffffff;
 }
 
-  a {
-    color: inherit;
-    text-decoration:none
-  }
-  .hero-page{
-    background-color: #ffffff;
-    color: #333333;
-    background-position: center;
-  }
- .navigation-list {
-    font-family:"PT Sans", sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
-    color: #333333;
-    text-decoration: none;
-  }
-  .page-welcome {
-    min-height: 485px;
-    background-image: url("../images/index-background.jpg");
-    background-repeat: no-repeat,no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #00FFFF;
+a {
+  color: inherit;
+  text-decoration: none
+}
 
-  }
+.hero-page {
+  background-color: #ffffff;
+  color: #333333;
+  background-position: center;
+}
 
-  .advanteges-head {
-    font-family: "PT Sans";
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    color:#333333
-  }
+.navigation-list {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #333333;
+  text-decoration: none;
+}
 
-  .advantages-reasons {
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
-    color:#333333
-  }
+.page-welcome {
+  padding-top: 5px;
+  min-height: 485px;
+  background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
+  text-align: center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, cover;
+  background-color:#2d658a;
+  background-position: bottom;
+  bottom: 0
+
+}
+
+.advanteges-head {
+  font-family: "PT Sans";
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333
+}
+
+.advantages-reasons {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333
+}
 
 .advanteges-item {
-    background-color: #68a2ca4d;
-    color:#333333
-}
-    .advanteges-description{
-    font-family:"PT Sans";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color:#333333
-    }
-  .advanteges-description-text{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color:#333333
-  }
-
-  .advanteges-title {
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #ffffff;
-    text-transform: uppercase;
-
-  }
-
-  .advanteges-text{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #ffffff;
-
-  }
-
-
-  .advanteges-item-city {
-    background-color: #82b3d3;
-    color: #ffffff;
-
-  }
-  .advanteges-item-bridge {
-    background-color: #82b3d3;
-    color:#ffffff
-  }
-  .advantages-bridge {
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #ffffff;
-  }
-
-.advantages-bridge-text{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color:#ffffff
+  background-color: #68a2ca4d;
+  color: #333333
 }
 
-.services-title{
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-    text-align: center;
-    color:#333333
+.advanteges-description {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #333333
 }
 
-.main-services{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
-    color:#333333
+.advanteges-description-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333
 }
 
-.services-description{
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color:#333333
+.advanteges-title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+
 }
 
-.services-text{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color:#333333;
+.advanteges-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+
 }
 
-   .services-item-house{
-background-color:#83b3d333;
-}
-.services-item-souvenirs{
-background-color:#83b3d333;
-}
-.searching-hotel{
+.services-list{
   text-align: center;
 }
-   .question{
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color:#333333
+
+.advanteges-item{
+  text-align: center;
 }
-   .date{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 22x;
-    line-height: 26px;
-    text-align: center;
-    color:#333333;
-    }
-   .button-seacrch-hotel-in-Sedona{
+
+.advanteges-item-city {
+  background-color: #82b3d3;
+  color: #ffffff;
+
+}
+
+.advanteges-item-bridge {
+  background-color: #82b3d3;
+  color: #ffffff
+}
+
+.advantages-bridge {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages-bridge-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff
+}
+
+.services-title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333
+}
+
+.main-services {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333
+}
+
+.services-description {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #333333
+}
+
+.services-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.services-item-house {
+  background-color: #83b3d333;
+}
+
+.services-item-souvenirs {
+  background-color: #83b3d333;
+}
+
+.searching-hotel {
+  text-align: center;
+}
+
+.question {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #333333
+}
+
+.date {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.button-seacrch-hotel {
   font-family: "PT Sans";
   font-weight: 700;
   font-size: 20px;
@@ -211,18 +236,19 @@ background-color:#83b3d333;
   width: 376px;
   height: 52px;
   text-transform: uppercase;
-  background-color:#756157;
+  background-color: #756157;
   color: #ffffff;
-  }
+}
 
-  .subscribe-to-newsletter {
-    background-image: url("../images/subscribe.jpg");
-    color:#ffffff;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.subscribe-to-newsletter {
+  background-image: url("../images/subscribe.jpg");
+  background-color:#6d8ca0;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.subsccribe-button{
+.subsccribe-button {
   font-family: "PT Sans";
   text-align: center;
   font-weight: 700;
@@ -234,17 +260,19 @@ background-color:#83b3d333;
   background-color: #82B3D3;
   color: #ffffff;
 }
+
 .header-inner {
   color: #ffffff;
-  background-color:#615048;
+  background-color: #615048;
   background-image: url("../images/inner-catalog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 377px;
 
 }
-.button-brown{
- font-family: "PT Sans";
+
+.button-brown {
+  font-family: "PT Sans";
   text-align: center;
   font-weight: 700;
   font-size: 16px;
@@ -252,11 +280,12 @@ background-color:#83b3d333;
   width: 140px;
   height: 36px;
   text-transform: uppercase;
-  background-color:#756157;
+  background-color: #756157;
   color: #ffffff;
 }
-.button-blue{
-font-family: "PT Sans";
+
+.button-blue {
+  font-family: "PT Sans";
   text-align: center;
   font-weight: 700;
   font-size: 16px;
@@ -264,9 +293,10 @@ font-family: "PT Sans";
   width: 140px;
   height: 36px;
   text-transform: uppercase;
-  background-color:#82B3D3;
+  background-color: #82B3D3;
   color: #ffffff;
 }
+
 .button-green {
   font-family: "PT Sans";
   text-align: center;
@@ -276,14 +306,15 @@ font-family: "PT Sans";
   width: 140px;
   height: 36px;
   text-transform: uppercase;
-  background-color:#7DB54F;
+  background-color: #7DB54F;
   color: #ffffff;
 }
-.pagination-link{
+
+.pagination-link {
   color: #ffffff;
   background-color: #82b3d3;
   text-decoration: none;
   text-align: center;
   width: 60px;
   height: 60px;
-  }
+}
