@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="styles\styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+    <div class="page-container">
     <header class="hero-page">
-       <nav class="navigation">
+           <nav class="navigation">
         <a class="logo" href="index.html">
         <img src="images/logo-Sedona.svg" width="140" height="70" alt="Логотип Седоны">
         </a>
@@ -21,36 +22,38 @@
           <li class="navigation-iterm">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
-        </ul>
-        <ul class="navigation-list">
-        <li class="navigation-iterm">
-        <a class="navigation-link" href="#"></a>
+          </ul>
+          <ul class="navigation-user">
+         <li class="navigation-user-iterm">
+        <a class="navigation-user-iterm" href="#"></a>
         <span class="visually-hidden">Поиск</span>
         </li>
-
-          <li class="navigation-iterm">
+          <li class="navigation-list-user">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Избранное12</span>
             </a>
-           <li class="navigation-iterm">
+           <li class="navigation-user-iterm">
             <a href="#"  class="button-want">Хочу сюда!</a>
         </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-container">
+      <div class="page-container"></div>
       <section class="page-welcome">
       <h1 class="visually-hidden"> </h1>
       <img src="images/welcome.svg" width="458" height="352" alt="Приветствие">
       </section>
        <section class="advanteges">
         <h2 class="visually-hidden"></h2>
-        <p class="advanteges-head"> Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="advanteges-head"> Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</p>
         <p class="advantages-reasons"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="advanteges-list">
           <li class="advanteges-item-city">
+            <div>
             <h3 class="advanteges-title"> Настоящий городок</h3>
             <p class="advanteges-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
             <img src="images/street.jpg" width="800" height="385" alt= "Улица Седоны">
             </li>
             <li class="advanteges-item">
@@ -60,14 +63,16 @@
           <li class="advanteges-item">
             <h3 class="advanteges-description"> Красивая дорога </h3>
             <p class="advanteges-description-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </li>
+           </li>
           <li class="advanteges-item">
             <h3 class="advanteges-description"> Мало туристов </h3>
             <p class="advanteges-description-text">Большинство едет в Гранд Каньон и толпится там</p>
             </li>
           <li class="advanteges-item-bridge">
-            <h3 class="advantages-bridge" > Там есть мост дьявола</h3>
+            <div>
+             <h3 class="advantages-bridge" > Там есть мост дьявола</h3>
             <p class="advantages-bridge-text"> Да, по нему можно пройти! Если вы осмелитесь, разумеется </p>
+            </div>
             <img src="images/bridge.jpg" width="800" height="385" alt="Фото моста дьявола">
           </li>
           </ul>
@@ -94,14 +99,15 @@
         <button class="button-seacrch-hotel" type="button">Поиск гостиницы в Седоне</button>
       </section>
       <section class="subscribe-to-newsletter">
-        <h2> Подпишитесь на рассылку </h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <h2 class="newsletter"> Подпишитесь на рассылку </h2>
+        <p class="information">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" method="post">
           <label for="email"> </label>
-          <input type="email" name="email" id="email" placeholder="Ваш email">
+          <input class="e-mail" type="email" name="email" id="email" placeholder="Ваш email">
           <button class="subsccribe-button" type="submit">Подписаться </button>
         </form>
-      </section>
+        </div>
+        </section>
     </main>
     <footer>
       <section class="social-media">
@@ -130,5 +136,6 @@
         <img class="html-academy-logo" src="images/logo-htmlacademy.svg" width="115" height="33" alt="Логотип Академии">
       </p>
     </footer>
+  </div>
   </body>
 </html>
