@@ -7,8 +7,8 @@
   </head>
   <body>
      <div class="page-container">
-    <header class="page-header">
-        <nav class="navigation">
+    <header class="hero-page">
+           <nav class="navigation">
         <a class="logo" href="index.html">
         <img src="images/logo-Sedona.svg" width="140" height="70" alt="Логотип Седоны">
         </a>
@@ -25,7 +25,7 @@
           </ul>
           <ul class="navigation-user">
          <li class="navigation-user-iterm">
-        <a class="navigation-user-iterm" href="#"></a>
+        <a class="navigation-user-iterm-link" href="#"></a>
         <span class="visually-hidden">Поиск</span>
         </li>
           <li class="navigation-list-user">
@@ -34,7 +34,7 @@
             </a>
            <li class="navigation-user-iterm">
             <a href="#"  class="button-want">Хочу сюда!</a>
-          </li>
+        </li>
         </ul>
       </nav>
     </header>
@@ -53,26 +53,25 @@
             </a>
           </li>
         </ul>
-        <form class="catalog-filters" action="https://echo.htmlacademy.ru/" method="get"></form>
+        <form class="catalog-filters" action="https://echo.htmlacademy.ru/" method="get">
         <h2 class="visually hidden"></h2>
-        <div class="filter-service">
-           <fieldset class="catalog-filter-group">
+           <fieldset class="infrastructyre-filter">
             <legend class="catalog-filer-title">Инфраструктура
             </legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
+            <ul class="infrastructyre-list">
+              <li class="infrastructyre-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="Бассейн" checked>
                   Бассейн
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="infrastructyre-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="Парковка">
                   Парковка
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="infrastructyre-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="Wi-Fi">
                   Wi-Fi
@@ -80,23 +79,23 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="catalog-filter group">
+          <fieldset class="housing-filter">
             <legend class="catalog-filer-title">Тип жилья
             </legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
+            <ul class="housing-list">
+              <li class="housing-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="product-group" value="Hotel" checked>
                   Гостиница
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="housing-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="product-group" value="Motel">
                   Мотель
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="housing-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="product-group" value="Appart">
                   Апартаменты
@@ -104,25 +103,24 @@
               </li>
             </ul>
           </fieldset>
-          </div>
-          <div class="filter-price">
-          <fieldset class="filter-price">
+            <fieldset class="price-filter">
             <legend class="catalog-filter-title">Стоимость,Р
             </legend>
             <label class="price-from">от</label>
-            <input class="control-input" type="number" name="price-from" id="price-from" value="0">
+            <input class="control-input-from" type="number" name="price-from" id="price-from" value="0">
             <label class="price-to">До</label>
-            <input class="control-input" type="number" name="price to" id="price-to" value="9000">
+            <input class="control-input-to" type="number" name="price to" id="price-to" value="9000">
           </fieldset>
-          </div>
+          <div>
           <button class="button-submit" type="submit">Применить</button>
           <button class="button-reset" type="reset">Сбросить</button>
-        </form>
-        </header>
+          </div>
+         </form>
+       </header>
       </section>
        <section class="name-hotels">
         <div class="sorting">
-        <h2>Найдено гостиниц:38</h2>
+        <h2 class="found-hotels">Найдено гостиниц:38</h2>
         <select class="select-control">
           <option value="сheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
@@ -130,18 +128,18 @@
         </select>
         <ul class="sorting-product">
           <li class="sort-product-item">
-            <a href="catalog.html?view=tile" class="sort-titlet-button">
+            <a href="catalog.html?view=tile" class="sort-link">
               <span class="visually-hidden">Показать таблицей
               </span>
             </a>
           </li>
           <li class="sort-list-item">
-            <a href="catalog.html?view=card" class="sort-card-button">
+            <a href="catalog.html?view=card" class="sort-link">
               <span class="visually-hidden">Показать карточки</span>
             </a>
           </li>
           <li class="sort-list-item">
-            <a href="catalog.html?view=list" class="sort-list-button">
+            <a href="catalog.html?view=list" class="sort-link">
               <span class="visually-hidden">Показать списком</span>
             </a>
           </li>
