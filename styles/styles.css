@@ -761,7 +761,7 @@ a {
 
  }
 
- hotel-card-image-link{
+ .hotel-card-image-link{
   display:grid;
   grid-column: 1/-1;
 }
