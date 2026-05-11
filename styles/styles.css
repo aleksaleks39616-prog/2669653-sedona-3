@@ -758,7 +758,7 @@ a {
   grid-template-columns: repeat(2, 140px);
   gap:16px;
   padding:20px;
-  grid-template-rows: auto min-content min-content min-content min-content;
+  grid-template-rows: auto min-content;
 
  }
 
